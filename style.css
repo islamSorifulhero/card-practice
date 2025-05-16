@@ -32,3 +32,10 @@ section .indent a{
     text-decoration: none;
     color: tomato;
 }
+ul li{
+    display: inline;
+    text-decoration: none
+}
+ul li a{
+    text-decoration: none;
+}
