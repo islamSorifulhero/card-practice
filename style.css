@@ -1,9 +1,9 @@
-a[target="_top"] {
-    background-color: wheat;
+h1{
+    border: 1px solid red;
+    border-radius: 15px 50px 30px 5px;
 }
-a[target] {
-    background-color: blue;
-}
-[class]{
+#grid{
     background-color: red;
+    height: 200px;
+    background-image: linear-gradient(to right, red, yellow);
 }
