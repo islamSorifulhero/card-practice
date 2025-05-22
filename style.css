@@ -12,6 +12,7 @@ section header{
     background-color: white;
     display: flex;
     justify-content: space-between;
+    
 }
 section header img{
     margin-left: 50px;
@@ -29,6 +30,9 @@ section header ul li a{
     color: black;
     text-decoration: none;
     margin-right: 40px;
+}
+section header ul li a:hover{
+    color: blue;
 }
 section div{
     margin-top: 50px;
@@ -105,4 +109,27 @@ section .box-3 p{
     margin-left: -230px;
     font-size: 20px;
 }
-
+section h3{
+    margin-top: 400px;
+    text-align: center;
+}
+section .video{
+    display: flex;
+    border-radius: 30px;
+    gap: 5px;
+}
+section div video{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+footer{
+    margin-top: 200px;
+    color: white;
+    background-color: black;
+}
+footer .foot{
+    display: flex;
+    gap: 35px;
+}
